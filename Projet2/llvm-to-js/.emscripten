@@ -1,0 +1,10 @@
+import os
+LLVM_ROOT='/net/autre/phuchant/emsdk_portable/clang/fastcomp/build_master_64/bin'
+NODE_JS='/net/autre/phuchant/emsdk_portable/node/4.1.1_64bit/bin/node'
+EMSCRIPTEN_ROOT='/net/autre/phuchant/emsdk_portable/emscripten/master'
+EMSCRIPTEN_NATIVE_OPTIMIZER='/net/autre/phuchant/emsdk_portable/emscripten/master_64bit_optimizer/optimizer'
+SPIDERMONKEY_ENGINE = ''
+V8_ENGINE = ''
+TEMP_DIR = '/tmp'
+COMPILER_ENGINE = NODE_JS
+JS_ENGINES = [NODE_JS]
